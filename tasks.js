@@ -1,3 +1,4 @@
+// 1)
 function Book(name, author, year) {
     this.name = name
     this.author = author
@@ -42,3 +43,11 @@ function Book(name, author, year) {
     }
 
 }
+
+// isAvailable() // true/false - доступна ли книга для выдачи или она у кого-то на руках
+// takeBook(readerName) - должен выдавать книгу читателю, если она доступна для выдачи и записывать его имя в reader, возвращает true, если выдача книги возможна и она произведена, false, если книга уже выдана
+// returnBook() - регистрирует возврат книги, устанавливает reader в null, возвращает true, если книга была на руках, false если книга итак в библиотеке
+// changeBookName(newBookName) - изменяет название книги на newBookName, возвращает true/false, в зависимости от результата
+// changeAuthorName(newAuthorName) - изменяет имя автора на newAuthorName, возвращает true/false в зависимости от результата
+// getCurrentReader() - возвращает имя текущего читателя или null, если книга доступна для выдачи
+// ____________________
