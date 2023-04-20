@@ -1,1 +1,1 @@
-# 1. First task material: [#1] (https://learn.javascript.ru/prototypes) 
+# 1. First task material: (#1) [https://learn.javascript.ru/prototypes] 
